@@ -1,0 +1,25 @@
+.card-dashboard-product {
+  margin-bottom: 15px;
+
+  .card-body {
+    .product-title {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 27px;
+      /* identical to box height */
+
+      color: #0c0d36;
+    }
+
+    .product-subtitle {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      /* identical to box height */
+
+      color: #c5c5c5;
+    }
+  }
+}

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Store - Your Best Marketplace</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="page-dashboard">
+      <div class="d-flex" id="wrapper" data-aos="fade-right">
+        <!-- SideBar -->
+        <div class="border-right" id="sidebar-wrapper">
+          <div class="sidebar-heading text-center">
+            <img src="/images/shopping_dashboard.svg" alt="" class="mt-4" />
+          </div>
+          <div class="list-group list-group-flush mt-4">
+            <a
+              href="/dashboard.html"
+              class="list-group-item list-group-item-action "
+            >
+              Dashboard
+            </a>
+
+            <a
+              href="/dahsboard-product.html"
+              class="list-group-item list-group-item-action active"
+            >
+              My Product
+            </a>
+
+            <a
+              href="/dashboard-transactions.html"
+              class="list-group-item list-group-item-action"
+            >
+              Transactions
+            </a>
+
+            <a
+              href="/dahsboard-settings.html"
+              class="list-group-item list-group-item-action "
+            >
+              Store Settings
+            </a>
+
+            <a
+              href="/dahsboard-account.html"
+              class="list-group-item list-group-item-action"
+            >
+              My Account
+            </a>
+
+            <a
+              href="/index.html"
+              class="list-group-item list-group-item-action"
+            >
+              Sign-Out
+            </a>
+          </div>
+        </div>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+          <nav
+      class="navbar navbar-expand-lg navbar-light navbar-store fixed-top "
+      data-aos="fade-down"
+    >
+      <div class="container-fluid">
+       
+        <button class="btn btn-secondary d-md-none mr-auto mr-2" id="menu-toggle">
+          &laquo; Menu
+        </button>
+
+        <button
+          class="navbar-toggler first-button"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent20"
+          "
+        >
+          <div class="animated-icon1">
+            <span></span><span></span><span></span>
+          </div>
+        </button>
+
+       
+        <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+      
+              <!-- Desktop Menu -->
+              <!-- d-non agar tidak tampil di mobil,d-lg-flex agar tampil dilayar besar dalam bentuk flex box -->
+              
+         
+          <ul class="navbar-nav d-none d-lg-flex ml-auto">
+                <li class="nav-item dropdown">
+                  <!-- Agar bisa di dropdown,nav-item membuat item pada navigasi -->
+                  <a href="#" class="navlink" id="navbarDropdown" role="button" data-toggle="dropdown">
+                    <!-- navlink selalu ada dalam ancor yang ada pada navigasi bawaan bootstrap -->
+                    <img src="/images/HaruPictProfile.png" alt="" class="rounded-circle mr-2 ml-4 profile-picture">
+                    Hi,Haruka
+                  </a>
+                  <div class="dropdown-menu">
+                    <a href="/dashboard.html" class="dropdown-item">Dashboard</a>
+                    <a href="/dashboard-account.html" class="dropdown-item">Settings</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="/" class="dropdown-item">Logout</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link d-inline-block ml-2">
+                    <img src="/images/shopping_ada.svg" alt="">
+                    <div class="card-badge">3</div>
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="navbar-nav d-block d-lg-none">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    Hi,Haruka
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    Cart
+                  </a>
+                </li>
+              </ul>
+        </div> 
+         
+      </div>
+    </nav>
+
+    <!-- Section Content -->
+
+    <div class="section-content section-dashboard-home" data-aos="fade-up">
+      <div class="container-fluid">
+        <div class="dashboard-heading">
+          <h2 class="dashboard-title">Kaki Haruka Magazine</h2>
+          <p class="dashboard-subtitle">
+            Product Details
+          </p>
+        </div>
+
+        <div class="dashboard-content">
+          <div class="row">
+          <div class="col-12">
+            <form action="">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row ">
+                      <div class="col-md-6">
+                         <div class="form-group" >
+                  <label>Product Name</label>
+                  <input type="text"  class="form-control" value="Kaki Haruka Magazine" >
+                </div>
+               </div>
+
+                  <div class="col-md-6">
+                         <div class="form-group" >
+                  <label>Price</label>
+                  <input type="number"  class="form-control" value="540000">
+                </div>
+               </div>
+
+               <div class="col-md-12 mt-3">
+
+                   <div class="form-group">
+                  <label >Category</label>
+                  <select name="category" class="form-control">
+                    <option value="Magazine">Magazine</option>
+                  </select>
+                </div>
+
+                </div>
+
+                 <div class="col-md-12 mt-3">
+                        
+                <div class="form-group" >
+                  <label>Description</label>
+                  <textarea name="editor"></textarea>
+                </div>
+                
+                      </div>
+
+                   
+                       
+                <div class="col-12  text-right">
+                  <button class="btn btn-success px-4 btn-block">
+                   Update Data
+                  </button>
+                </div>
+                </form>
+              </div>
+
+                  </div>
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-4">
+                              <div class="gallery-container">
+                                <img src="/images/product-card-1.png" alt="" class="w-100">
+                                <a href="" class="delete-gallery">
+                                  <img src="/images/btn-delete.png" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="gallery-container">
+                                <img src="/images/product-card-2.png" alt="" class="w-100">
+                                <a href="" class="delete-gallery">
+                                  <img src="/images/btn-delete.png" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-md-4">
+                              <div class="gallery-container">
+                                <img src="/images/product-card-3.png" alt="" class="w-100">
+                                <a href="" class="delete-gallery">
+                                  <img src="/images/btn-delete.png" alt="">
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <input type="file" id="file" style="display: none;" multiple>
+                              <button class="btn btn-secondary btn-block mt-3" onclick="thisFileUpload()">
+                                Add Photo
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+
+                  
+                </div>
+              </div>
+           
+          </div>
+        </div>
+      </div>
+
+      
+
+    </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      $("#menu-toggle").click(function(e){
+          e.preventDefault();
+          $("#wrapper").toggleClass("toggled");
+      });
+    </script>
+    <script src="/script/navbar-scroll.js"></script>
+    <script src="https://cdn.ckeditor.com/4.15.1/standard/ckeditor.js"></script>
+    <script>
+    function thisFileUpload(){
+       document.getElementById('file').click();
+     }
+    </script>
+    <script>
+                        CKEDITOR.replace( 'editor' );
+                </script>
+  </body>
+</html>

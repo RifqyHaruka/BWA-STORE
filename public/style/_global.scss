@@ -1,0 +1,47 @@
+// Styling yang terpakai disemua halaman
+
+body {
+    font-family: "Poppins", sans-serif;
+
+    // background-image: url(/images/HaloweenHaruka1.jpeg);
+    // background-position: center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+}
+
+.page-content {
+    margin-top: 180px;
+}
+
+footer {
+    border-top: 1px solid #e4e4e4;
+    margin-top: 150px;
+
+    p {
+        color: #979797;
+    }
+}
+
+.form-control {
+    background-color: #f3f3f3;
+}
+
+.nav-item {
+    .btn-success {
+        background-color: purple;
+    }
+}
+
+.carousel-item {
+    img {
+        width: 952px;
+        height: 360px;
+    }
+}
+
+.center-cropped {
+    width: 300px;
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

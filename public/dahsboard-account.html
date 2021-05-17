@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Store - Your Best Marketplace</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="page-dashboard">
+      <div class="d-flex" id="wrapper" data-aos="fade-right">
+        <!-- SideBar -->
+        <div class="border-right" id="sidebar-wrapper">
+          <div class="sidebar-heading text-center">
+            <img src="/images/shopping_dashboard.svg" alt="" class="mt-4" />
+          </div>
+          <div class="list-group list-group-flush mt-4">
+            <a
+              href="/dashboard.html"
+              class="list-group-item list-group-item-action "
+            >
+              Dashboard
+            </a>
+
+            <a
+              href="/dahsboard-product.html"
+              class="list-group-item list-group-item-action"
+            >
+              My Product
+            </a>
+
+            <a
+              href="/dashboard-transactions.html"
+              class="list-group-item list-group-item-action"
+            >
+              Transactions
+            </a>
+
+            <a
+              href="/dahsboard-settings.html"
+              class="list-group-item list-group-item-action "
+            >
+              Store Settings
+            </a>
+
+            <a
+              href="/dahsboard-account.html"
+              class="list-group-item list-group-item-action active"
+            >
+              My Account
+            </a>
+
+            <a
+              href="/index.html"
+              class="list-group-item list-group-item-action"
+            >
+              Sign-Out
+            </a>
+          </div>
+        </div>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+          <nav
+      class="navbar navbar-expand-lg navbar-light navbar-store fixed-top "
+      data-aos="fade-down"
+    >
+      <div class="container-fluid">
+       
+        <button class="btn btn-secondary d-md-none mr-auto mr-2" id="menu-toggle">
+          &laquo; Menu
+        </button>
+
+        <button
+          class="navbar-toggler first-button"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent20"
+          "
+        >
+          <div class="animated-icon1">
+            <span></span><span></span><span></span>
+          </div>
+        </button>
+
+       
+        <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+      
+              <!-- Desktop Menu -->
+              <!-- d-non agar tidak tampil di mobil,d-lg-flex agar tampil dilayar besar dalam bentuk flex box -->
+              
+         
+          <ul class="navbar-nav d-none d-lg-flex ml-auto">
+                <li class="nav-item dropdown">
+                  <!-- Agar bisa di dropdown,nav-item membuat item pada navigasi -->
+                  <a href="#" class="navlink" id="navbarDropdown" role="button" data-toggle="dropdown">
+                    <!-- navlink selalu ada dalam ancor yang ada pada navigasi bawaan bootstrap -->
+                    <img src="/images/HaruPictProfile.png" alt="" class="rounded-circle mr-2 ml-4 profile-picture">
+                    Hi,Haruka
+                  </a>
+                  <div class="dropdown-menu">
+                    <a href="/dashboard.html" class="dropdown-item">Dashboard</a>
+                    <a href="/dashboard-account.html" class="dropdown-item">Settings</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="/" class="dropdown-item">Logout</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link d-inline-block ml-2">
+                    <img src="/images/shopping_ada.svg" alt="">
+                    <div class="card-badge">3</div>
+                  </a>
+                </li>
+              </ul>
+
+              <ul class="navbar-nav d-block d-lg-none">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    Hi,Haruka
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    Cart
+                  </a>
+                </li>
+              </ul>
+        </div> 
+         
+      </div>
+    </nav>
+
+    <!-- Section Content -->
+
+    <div class="section-content section-dashboard-home" data-aos="fade-up">
+      <div class="container-fluid">
+        <div class="dashboard-heading">
+          <h2 class="dashboard-title">Akun Saya</h2>
+          <p class="dashboard-subtitle">
+           Edit Akun Saya
+          </p>
+        </div>
+
+        <div class="dashboard-content">
+          <div class="col-12">
+            <div class="card card-account">
+              <div class="card-body">
+                 <div class="row" data-aos="fade-up" data-aos-delay="150">
+             <hr />
+           </div>
+
+         
+           <div class="row" data-aos="fade-up" data-aos-delay="200">
+             <div class="col-md-6">
+               <div class="form-group">
+                 <label for="addressOne">Your Name</label>
+                 <input type="text" name="addressOne" id="addressOne" class="form-control" value="">
+                 
+               </div>
+             </div>
+
+             <div class="col-md-6">
+               <div class="form-group">
+                 <label for="addressOne">Your Email</label>
+                 <input type="email" name="addressOne" id="addressOne" class="form-control" value="">
+                 
+                 
+               </div>
+             </div>
+             <div class="col-md-4">
+               <div class="form-group">
+                 <label for="province">Provinsi</label>
+                 <select name="province" id="province" class="form-control">
+                   <option value=""></option>
+                   <option value="Jawa Barat">Jawa Barat</option>
+                 <option value="Jawa Timur">Jawa Timur</option>
+                 </select>
+                 
+
+           </div>
+           </div>
+
+           <div class="col-md-4">
+               <div class="form-group">
+                 <label for="city">Kota</label>
+                 <select name="city" id="city" class="form-control">
+                   <option value=""></option>
+                   <option value="Bogor">Bogor</option>
+                 <option value="Bandung">Bandung</option>
+                 </select>
+                 
+
+           </div>
+       </div>
+
+        <div class="col-md-4">
+               <div class="form-group">
+                 <label for="postCode">Post Code</label>
+                 <input type="text" name="postCode" id="postCode" class="form-control" value="">
+                 
+               </div>
+             </div>
+
+             <div class="col-md-6">
+               <div class="form-group">
+                 <label for="postCode">Country</label>
+                 <input type="text" name="postCode" id="postCode" class="form-control" value="">
+                 
+               </div>
+             </div>
+
+             <div class="col-md-6">
+               <div class="form-group">
+                 <label for="postCode">Mobile</label>
+                 <input type="text" name="postCode" id="postCode" class="form-control" value="">
+                 
+               </div>
+             </div>
+              </div>
+
+              <div class="row button-coba">
+                <div class="col text-right">
+                  <button class="btn btn-success px-4 mt-4">
+                    Save Now
+                  </button>
+                </div>
+              </div>
+              </div>
+
+              <div class="row" data-aos="fade-up" data-aos-delay="150">
+             <hr />
+           </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+    </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendor/jquery/jquery.slim.min.js"></script>
+    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      $("#menu-toggle").click(function(e){
+          e.preventDefault();
+          $("#wrapper").toggleClass("toggled");
+      });
+    </script>
+    <script src="/script/navbar-scroll.js"></script>
+  </body>
+</html>
